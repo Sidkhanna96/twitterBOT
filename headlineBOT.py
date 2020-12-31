@@ -40,7 +40,7 @@ def update_status_image(imagePath):
         except Exception as e:
             print("Error: ", e)
     else:
-        print('No postFile provided')
+        print('No imagePath provided')
 
 
 if __name__ == "__main__":
